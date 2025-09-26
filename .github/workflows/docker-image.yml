@@ -29,6 +29,7 @@ jobs:
           file: ./SDP-FULLSTACK/backend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/sdp-backend:latest
+          platforms: linux/arm64, linux/amd64
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
@@ -37,3 +38,4 @@ jobs:
           file: ./SDP-FULLSTACK/frontend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/sdp-frontend:latest
+          platforms: linux/arm64, linux/amd64

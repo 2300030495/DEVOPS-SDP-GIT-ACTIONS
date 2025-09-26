@@ -10,7 +10,7 @@ public class SdpProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SdpProjectApplication.class, args);
-		System.out.println("LL-CART Backend is Running Succesfully ... !!");
+		System.out.println("ART Backend is Running Succesfully ... !!");
 	}
 
 }

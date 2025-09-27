@@ -24,6 +24,7 @@ import com.klef.fsd.service.AdminService;
 @CrossOrigin("*")
 public class AdminController {
 
+	// this is admin controller
 	@Autowired
 	private AdminService service;
 //	@Autowired

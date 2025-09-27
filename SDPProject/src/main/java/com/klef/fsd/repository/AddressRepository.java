@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import com.klef.fsd.model.Address;
+// here the adress repository is totally upto date
 
 @Repository
 public interface AddressRepository extends JpaRepository<Address, Integer> {
